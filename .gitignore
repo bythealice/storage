@@ -1,0 +1,122 @@
+# -----------------------------
+# Node.js
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+dist/
+build/
+out/
+.env
+!.env.example
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs
+*.log
+*.log.*
+debug.log*
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# IDEs & editors
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.*.yml
+docker-compose.*.yaml
+*.dockerfile
+docker/
+**/docker/
+*.swarm
+*.stack
+
+# -----------------------------
+# Environment files
+# -----------------------------
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# -----------------------------
+# Build / Output
+# -----------------------------
+dist/
+build/
+out/
+tmp/
+temp/
+*.tsbuildinfo
+.next/
+.cache/
+
+# -----------------------------
+# Tests coverage & reports
+# -----------------------------
+coverage/
+*.lcov
+*.lcov.*
+*.snap
+.jest/
+.vitest/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+playwright-report/
+
+# -----------------------------
+# TypeScript
+# -----------------------------
+*.tsbuildinfo
+
+# -----------------------------
+# npm / yarn / pnpm cache
+# -----------------------------
+.npm
+.yarn
+.pnpm-store
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.bak
+*.tmp
+*.swp
+*.swo
+*.pid
+*.seed
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# -----------------------------
+# IDE project files
+# -----------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
