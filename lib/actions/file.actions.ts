@@ -39,8 +39,7 @@ export const uploadFile = async ({
       owner: ownerId,
       accountId,
       users: [],
-      // property matching your DB column key `bucketField` (required)
-      bucketField: bucketFile.$id,
+      bucketFileId: bucketFile.$id,
     };
 
     const newFile = await databases
@@ -112,7 +111,6 @@ export const getFiles = async ({
       queries,
     );
 
-    console.log({ files });
     return parseStringify(files);
   } catch (error) {
     handleError(error, "Failed to get files");
